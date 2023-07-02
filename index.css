@@ -38,6 +38,13 @@
 
   }
 
+  #selection_page{
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    display: none;
+  }
   #game_page{
     display: none;
     position: absolute;
@@ -68,3 +75,5 @@
   .game_box:hover{
     cursor: pointer;
   }
+
+  
