@@ -163,6 +163,7 @@ function resetGame() {
   win = false;
   turn = 0;
 
+  
   // Reset game boxes
   gameBoxs.forEach(box => {
     box.innerText = "";

@@ -72,6 +72,7 @@
     font-size: 64px;    
     border-radius: 16px;
   }
+  
   .game_box:hover{
     cursor: pointer;
   }
