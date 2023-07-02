@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="start-page">
+    <div id="start_page">
         <h1>Tic Tac Toe</h1>
-        <button id="start-button">Start Game</button>
+        <button id="start_button">Start Game</button>
       </div>
       
-      <div id="game-page" >
+      <div id="game_page" >
+        <h1 id="game_headline">Player 1(X)</h1>
           <div id="game_board">
             <div class="game_box" id="1"></div>
             <div class="game_box" id="2"></div>
@@ -24,7 +26,10 @@
             <div class="game_box" id="8"></div>
             <div class="game_box" id="9"></div>
           </div>
+        <button id="reset_button">Reset</button>
+
     </div>
+
       <script src="index.js"></script>
 </body>
 </html>

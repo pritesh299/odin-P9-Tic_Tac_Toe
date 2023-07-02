@@ -1,13 +1,70 @@
-#game_board{
-  display: grid;
-  grid-template-columns: repeat(3,100px);
-  grid-template-rows: repeat(3,100px);
-  background-color: red;
-  gap: 12px;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Geologica', sans-serif;
+  }
+  h1 {
+    text-align: center;
+    margin: 10px;
 }
+  button {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    padding: 10px;
+    cursor: pointer;
+    border-radius:50px;
+    margin: 10px auto;
+    font-size: 24px;
+    display: block;
+    min-width: 150px;
+  }
+  button:hover{
+    background-color:black;
+    color: white;
+  }
 
+  #start_page{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    font-size: 64px;    
+
+  }
+
+  #game_page{
+    display: none;
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);   
+  }
+
+  #game_board{
+    background-color:  #C4DFDF;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-auto-rows: 100px;
+    gap: 10px;
+    justify-content: center;
+    padding: 24px;
+
+  }
   .game_box{
-    width: 100px;
-    height: 100px;
-    background-color: green;
+    background-color:#E3F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;    
+    border-radius: 16px;
+  }
+  .game_box:hover{
+    cursor: pointer;
   }
